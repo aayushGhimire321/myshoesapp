@@ -46,8 +46,8 @@ class _MyAppState extends State<MyApp> {
       routes: {
         '/login': (context) => LoginPage(),
         '/home': (context) => HomePage(),
-        // '/phone': (context) => PhoneGetterPage(),
-        // '/otp': (context) => PhoneOTP(),
+        '/phone': (context) => PhoneGetterPage(),
+        '/otp': (context) => PhoneOTP(),
       },
       home: AuthService().handleAuthState(),
       // home: HomePage(),
